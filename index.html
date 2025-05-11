@@ -1,12 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Contact - Yogesh Gupta</title>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - Yogesh Gupta</title>
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      background-color: #f0f4f8;
+    }
+    .center-box {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      background: white;
+    }
+    .title {
+      color: #3273dc;
+    }
+    .info {
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+    }
+    a {
+      color: #363636;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #3273dc;
+    }
+  </style>
 </head>
 <body>
-  <h1>Yogesh Gupta</h1>
-  <p><strong>Email:</strong> <a href="mailto:mydeargupta@gmail.com">mydeargupta@gmail.com</a></p>
-  <p><strong>Mobile:</strong> <a href="tel:+918427888999">+91 84278 88999</a></p>
+  <div class="center-box">
+    <div class="card has-text-centered">
+      <h1 class="title is-3">Yogesh Gupta</h1>
+      <div class="info">
+        <p><strong>Email:</strong> <a href="mailto:mydeargupta@gmail.com">mydeargupta@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+918427888999">+91 84278 88999</a></p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+
